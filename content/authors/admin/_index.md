@@ -34,13 +34,13 @@ interests:
 education:
   courses:
     - course: Student 
-      institution: 
+      institution: NUAA
       year: now
     - course: Student 
-      institution: NUAA
+      institution: Lin'an High School,Zhejiang Province
       year: 2020
     - course: Student 
-      institution: Yv Qian Town No.1 Junior High School
+      institution: Yv Qian Town No.1 Junior Middle School
       year: 2017
 
 # Social/Academic Networking
