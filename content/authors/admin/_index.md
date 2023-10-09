@@ -40,7 +40,7 @@ education:
       institution: Lin'an High School,Zhejiang Province
       year: 2020
     - course: Student 
-      institution: Yv Qian Town No.1 Junior Middle School
+      institution: Yv Qian Town No.1 Junior High School
       year: 2017
 
 # Social/Academic Networking
