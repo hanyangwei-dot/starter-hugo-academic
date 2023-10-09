@@ -37,7 +37,7 @@ sections:
   #       text_color_light: true
   - block: markdown
     content:
-      title: memories
+      title: Memories
       subtitle: ''
       text: |-
         {{< gallery album="demo" >}}
