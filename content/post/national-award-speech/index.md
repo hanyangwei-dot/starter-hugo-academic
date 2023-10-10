@@ -30,7 +30,6 @@ image:
 
 authors:
   - admin
-  - YvYve 陽
 
 tags:
   - Academic
