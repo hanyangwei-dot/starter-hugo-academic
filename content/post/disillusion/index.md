@@ -1,0 +1,83 @@
+---
+title: 大学里☀️第一次认知的醒悟（好像是）我悟了
+subtitle: welcome👋 很久以前我就一直好奇先生（王阳明）悟到什么了，书上说，圣人之道，不假外求，吾性自足。还有高中时，陆九渊那一句吾心即是宇宙。我在思考，即宇宙在思考本身。他们说的太高大上了，我执行时有些虚。
+
+# Summary for listings and search engines
+summary:理解知行合一有些虚。在那之后，我也一直在探索认知和世界的关系。什么是学习？终身学习？为什么要思考？大学开始时是按一种模式学的，追求心流，可跳出心流后，又会迷茫，心流很爽，可我在学习还是追求爽啊？我那时候觉得我追求的不是远处的目标，而是一种感受。后来，一个学长告诉我要分清输入和输出，学习是输入，做试卷是输出，要把基础打好，输入的准备做好，不能一味的输出。
+
+# Link this post with a project
+projects: []
+
+# Date published
+date: '2020-12-13T00:00:00Z'
+
+# Date updated
+lastmod: '2020-12-13T00:00:00Z'
+
+# Is this an unpublished draft?
+draft: false
+
+# Show this page in the Featured widget?
+featured: false
+
+# Featured image
+# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+  focal_point: ''
+  placement: 2
+  preview_only: false
+
+authors:
+  - admin
+
+tags:
+  - Academic
+  - 学习？
+
+categories:
+  - Demo
+  - daily life
+---
+
+###### disillusion
+
+学长的那种说法比较清醒。我执行起来很明确，效率很高。直到刚刚，在路上一直直面自己的恐惧（想自己最害怕的事，想着如何处理目前你觉得最麻烦的事情，最不希望发生的事情）我觉得我弄清楚自己想要什么了。那一刻我才知道如何知行合一了，为何要立志，修德，为何要致良知。
+
+首先，摒弃一个学长告诉输入和输出的错误想法，（可能是认知觉醒里说过）意识高于潜意识，都是处在认知但很模糊的过程中（记不清了，有些现在悟了的我的个人思考），输入和输出本质上由意识主导，故全部都是输入。所以只要意识主导就好了，意识致良知。而知行合一这个道理，是一种境界。做个不恰当的比喻，你以意识主导潜意识，将自己至于认知边缘，迫使你认知和行为做出改变。再强一点，”志“即是宇宙中千万个联结点中的你所要追求的光明。而你是一直意识主导的，即原始的潜意识无法干扰你（克服所有思考惰性和体力惰性），不断增加联结点的光亮，达到圣人境界。故破山中贼易，破心中贼难。万种方法可以迫使你知行合一，”无涯教化有涯，欣欣向荣“。现在，对自己的意识进行规范，不断内化为潜意识，再反复否定，扩大思考和认知，防止原始惰性意识扰乱。陽，我想看看你的今后。
+
+接下来，说说悟了感受，豁然开朗，之前郁结好久的不明朗突然就透了，比心流爽（此次悟直指人生大道，不是数学题可比的）。但是我越发察觉悟的条件之苛刻，一是积累，想”认知“的事情时想到了过往所有关于认知的思考，看书的，还是体会的。二是，灵活的大脑，在那一刻，你的思维是飞速的，想不通越要想，调用所有去想。
+
+这次体会是一次很好的知行合一。你明白了积累之意义，带来认知的瞬间提升。你亦明白了惰性之可怕，若那一刻，你听从潜意思，有一步懒得去想了，就再不会有最后透了的感觉。
+
+现在我是个孩子，但，先生，您在天空或许看着我，我仿佛看到你幼年时的模样，向老师发问，”先生，为第一等事？“，您摇摇头，许下了宏愿。最后此心光明。
+
+
+
+###### Academic📚
+
+生存分析评价指标
+
+c_index :
+
+1.uncensored pairs 2.uncensored t小于censored c 找出所有pairs,符合一致性pairs的除以所有pairs。c=Pr(y1'<y2'|y1<y2)。//
+
+为了评估在follow-up period的表现，定义一个固定的follow-up period（0，t*)的c_index为所有可能观察时间点的AUC值的加权平均。
+
+The time-dependent AUC for any specific survival time t can be calculated as
+
+AUC(t)=P(yi'<yj'|yi小于t,yj大于t)=(1/num(t))∑∑I(yi'<yj')
+
+c_t*=∑AUC(t)（num(t)/num）
+
+因此c_t*是给定时间段follow-up period和预测顺序相一致的概率。
+
+Brier Score:
+
+Mean Absolute Error
+
+###### others
+
+今天很专注，继续努力。
+
+
