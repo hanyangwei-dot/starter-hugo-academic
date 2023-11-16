@@ -4,6 +4,7 @@ title:
 date: 2022-10-24
 type: landing
 
+
 sections:
   # - block: hero
   #   content:
@@ -102,8 +103,8 @@ sections:
       columns: '2'
   - block: accomplishments
     content:
-      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
+      # Note: `­` is used to add a 'soft' hyphen in a long heading.
+      title: 'Accomplish­ments'
       subtitle:
       # Date format: https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -289,3 +290,6 @@ sections:
     design:
       columns: '2'
 ---
+
+
+
