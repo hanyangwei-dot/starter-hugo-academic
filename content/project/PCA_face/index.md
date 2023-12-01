@@ -70,7 +70,9 @@ Cov(Zi,Zj)=Cov(ai'X,aj'X)=ai'∑aj
 
 但是，直觉虽好，但需要证明。
 
-<img title="" src="file:///C:/Users/hp/Pictures/Typedown/44f07514-78e0-4ed4-b6a9-2358ee8e6e27.png" alt="44f07514-78e0-4ed4-b6a9-2358ee8e6e27" style="zoom:67%;" data-align="center"><img title="" src="file:///C:/Users/hp/Pictures/Typedown/fca7dd04-7514-4733-9ca0-bbcd20dfc370.png" alt="fca7dd04-7514-4733-9ca0-bbcd20dfc370" style="zoom:67%;" data-align="center">
+<img title="" src="4.jpg" alt="" data-align="center" style="zoom:67%;">
+
+<img title="" src="5.jpg" alt="" style="zoom:67%;" data-align="center">
 
 
 
@@ -80,12 +82,14 @@ Cov(Zi,Zj)=Cov(ai'X,aj'X)=ai'∑aj
 
 主成分分析的目的是为了简化数据结构（即减少变量的个数），实际应用中一般选用前m(m<p)个主成分，达到高贡献率为止。
 
+<img title="" src="6.jpg" alt="" style="zoom:67%;" data-align="center">
+
 
 
 现在讲到这，就发现特征脸法的论文似乎没什么创新点，唯一的创新点在于大胆的将方法用于人脸识别。
 
 以下是前100个特征值的特征向量，是新的坐标系，具体见上传项目。
 
-<img title="" src="file:///C:/Users/hp/Pictures/Typedown/061f0099-7877-4f64-a2ff-be468e4d5b61.png" alt="061f0099-7877-4f64-a2ff-be468e4d5b61" style="zoom:67%;" data-align="center">
+<img title="" src="featured.jpg" alt="" style="zoom:67%;" data-align="center">
 
 [PCA_face源码链接]([hanyangwei-dot/PCA_face (github.com)](https://github.com/hanyangwei-dot/PCA_face))
