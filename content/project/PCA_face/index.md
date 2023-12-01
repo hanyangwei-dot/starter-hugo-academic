@@ -1,53 +1,33 @@
 ---
 title: PCA用于人脸识别（特征脸法）
-
-# Summary for listings and search engines
-
 summary: 这算是一次论文复现，实际上是模式识别的第一次实验。费曼说过，搞懂一件事是很难的。费曼学习法的核心就是把一件事从底层将清楚，给非专业领域的人将清楚。我当然没有狂妄到我从底层全部理解了，但我希望通过这次post可以把PCA的一切搞清楚。因为，知识是高重复性的，其次，我在想如果我一无所知，还是当初那个什么都不懂的孩子，我一定会很感兴趣，而现在的我，只是懂了一点而已（大一就知道有PCA这个东西，到现在才想去搞懂）。
+tags:
+  -  PCA
+date: '2016-04-27T00:00:00Z'
 
-# Link this post with a project
-
-projects: []
-
-# Date published
-
-date: '2020-12-13T00:00:00Z'
-
-# Date updated
-
-lastmod: '2020-12-13T00:00:00Z'
-
-# Is this an unpublished draft?
-
-draft: false
-
-# Show this page in the Featured widget?
-
-featured: false
-
-# Featured image
-
-# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
+# Optional external URL for project (replaces project detail page).
+external_link: ''
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
-  focal_point: ''
-  placement: 2
-  preview_only: false
+  caption: Photo by rawpixel on Unsplash
+  focal_point: Smart
 
-authors:
+links:
+  - icon: twitter
+    icon_pack: fab
+    name: Follow
+    url: https://twitter.com/georgecushen
+url_code: ''
+url_pdf: ''
+url_slides: ''
+url_video: ''
 
-- admin
-
-tags:
-
-- Academic
-- 学习？
-
-categories:
-
-- Demo
-- daily life
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides: example
 
 ---
 
@@ -109,5 +89,3 @@ Cov(Zi,Zj)=Cov(ai'X,aj'X)=ai'∑aj
 <img title="" src="file:///C:/Users/hp/Pictures/Typedown/061f0099-7877-4f64-a2ff-be468e4d5b61.png" alt="061f0099-7877-4f64-a2ff-be468e4d5b61" style="zoom:67%;" data-align="center">
 
 [PCA_face源码链接]([hanyangwei-dot/PCA_face (github.com)](https://github.com/hanyangwei-dot/PCA_face))
-
-
