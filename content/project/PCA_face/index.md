@@ -1,5 +1,5 @@
 ---
-title: PCA用于人脸识别（特征脸法）
+title: PCA、F用于人脸识别（特征脸法）
 summary: 这算是一次论文复现，实际上是模式识别的第一次实验。费曼说过，搞懂一件事是很难的。费曼学习法的核心就是把一件事从底层将清楚，给非专业领域的人将清楚。我当然没有狂妄到我从底层全部理解了，但我希望通过这次post可以把PCA的一切搞清楚。因为，知识是高重复性的，其次，我在想如果我一无所知，还是当初那个什么都不懂的孩子，我一定会很感兴趣，而现在的我，只是懂了一点而已（大一就知道有PCA这个东西，到现在才想去搞懂）。
 tags:
   -  PCA
@@ -74,8 +74,6 @@ Cov(Zi,Zj)=Cov(ai'X,aj'X)=ai'∑aj
 
 <img title="" src="5.jpg" alt="" style="zoom:67%;" data-align="center">
 
-
-
 证明关键在于有约束问题的拉格朗日乘子法，求导后代回去，发现最大化方差，就是最大化特征值。Z1就对应最大的特征值。当然，还有一种方法是通过广义瑞利熵证明的。
 
 
@@ -84,8 +82,6 @@ Cov(Zi,Zj)=Cov(ai'X,aj'X)=ai'∑aj
 
 <img title="" src="6.jpg" alt="" style="zoom:67%;" data-align="center">
 
-
-
 现在讲到这，就发现特征脸法的论文似乎没什么创新点，唯一的创新点在于大胆的将方法用于人脸识别。
 
 以下是前100个特征值的特征向量，是新的坐标系，具体见上传项目。
@@ -93,3 +89,68 @@ Cov(Zi,Zj)=Cov(ai'X,aj'X)=ai'∑aj
 <img title="" src="featured.jpg" alt="" style="zoom:67%;" data-align="center">
 
 [PCA_face源码链接]([hanyangwei-dot/PCA_face (github.com)](https://github.com/hanyangwei-dot/PCA_face))
+
+
+
+###### 因子分析
+
+这里有允许我介绍另一种降维方法，因子分析。
+
+因子分析是主成分分析的推广和发展，它也是多元统计分析中降维的一种方法。因子分析是研究相关阵或协差阵的内部依赖关系，它将多个变量综合为少数几个因子，以再现原始变量与因子之间的相关关系。
+
+<img title="" src="7.jpg" alt="" style="zoom:67%;" data-align="center">
+
+例如国家总体经济上行，存在某个经济上行因子的假设，去验证它。
+
+因子分析的主要应用有两方面，一是寻求基本结构，简化系统；二是用于分类。可见，它与主成分分析存在一些区别。
+
+1.主成分分析一般不用数学模型来描述，它只是通常的变量变换，而因子分析需要构造因子模型(正交或斜交)。
+
+2.主成分分析中主成分的个数和变量个数p相同， (但一般只选取m(m<p)个主成分)，而因子分析的目的是要用尽可能少的公因子，以便构造一个结构简单的因子模型。
+
+3.主成分分析是将主成分表示为原变量的线性组合，而因子分析是将原始变量表示为公因子和特殊因子的线性组合。
+
+<img title="" src="8.jpg" alt="" style="zoom:67%;" data-align="center">
+
+因子模型与主成分分析很相似，但多了一些东西。首先F是m维的，所以不是精确表示的线性组合。其次，\iota和F互不相关，即它们协方差矩阵为0，Cov(F,\iota)=0。F均值为0，方差为1，（标准化了），感觉和多元回归分析类似，但多对多回归分析没有要求/iota互不相关。
+
+<img title="" src="9.jpg" alt="" style="zoom:67%;" data-align="center">
+
+这时候，可以根据因子分析的假设进行推导，将X的协方差矩阵Σ=E[(X−μ)(X−μ)^T]用A和D表示出来。
+
+Σ=E[(X−μ)(X−μ)^T]=E[(AF+\iota)(AF+\iota)^T]=AD(F)A'+D(\iota)=AA'+D
+
+<img title="" src="10.jpg" alt="" style="zoom:67%;" data-align="center">
+
+1.选取原始变量和观测数据，估计样本协方差阵；
+2.初步求解A和D(§8.3)，但因子分解不唯一，只近似求解；
+3.公因子意义不明确，通过因子旋转(§8.4) 找出更合适的公因子，使得公因子尽可能将原始变量进行分组，可解释性更佳；
+4.将公因子近似表示成原始变量的线性组合，由此对每个样品点都可以计算各公因子的得分(§8.5)，并用于进一步分析。
+
+<img title="" src="11.jpg" alt="" style="zoom:67%;" data-align="center">
+
+aij=Cov(Xi,Fj),因为只有Cov(Fj,Fj)=1。
+
+<img title="" src="12.jpg" alt="" style="zoom:67%;" data-align="center">
+
+<img title="" src="13.jpg" alt="" style="zoom:67%;" data-align="center">
+
+<img title="" src="14.jpg" alt="" style="zoom:67%;" data-align="center">
+
+看以下这道题。
+
+<img title="" src="15.jpg" alt="" style="zoom:67%;" data-align="center">
+
+<img title="" src="16.jpg" alt="" style="zoom:67%;" data-align="center">
+
+<img title="" src="17.jpg" alt="" style="zoom:67%;" data-align="center">
+
+<img title="" src="18.jpg" alt="" style="zoom:67%;" data-align="center">
+
+以下是道考试题需要复习:
+
+<img title="" src="19.jpg" alt="" style="zoom:67%;" data-align="center">
+
+<img title="" src="20.jpg" alt="" style="zoom:67%;" data-align="center">
+
+<img title="" src="21.jpg" alt="" style="zoom:67%;" data-align="center">
