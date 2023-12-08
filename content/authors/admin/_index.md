@@ -22,7 +22,7 @@ organizations:
     url: https://nuaa.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I am now a newcomer to AI, so please take care of me and look forward to my growth!
 
 # Interests to show in About widget
 interests:
@@ -82,16 +82,16 @@ highlight_name: true
 
 **岁月堆起谷包，便等到了你。**
 {style="text-align: justify;"}
-
     煜爚，我是2023年的你啊，从今天起，我要给你写信。希望现在的我，以及我幼稚的心可以让你在做出抉择的时候不迷茫。你三个月大父母就离异啦！妈妈不要你，爸爸也不要你，把你丢给爷爷奶奶。爷爷奶奶农民，奶粉钱买不起。奶奶说，你筷子那么点大，就喂你吃熟鸡蛋。你在本该喝母乳的年纪吃硬食活了下来。你知道吗，这是天意。爸爸没出息，赡养不了他们。我来赡养他们。我捡垃圾，捡废品，所幸我还可以靠家教。
-{style="text-align: justify;"}
 
+{style="text-align: justify;"}
     我去夜郎。走的落魄些，到奉节便放弃。
     想走李白的路，却并非年前。想见的天下，亦非乡里闻诗的天下。
     命中注定的姑娘，会是你吗？
-{style="text-align: justify;"}
 
+{style="text-align: justify;"}
     我在他人之中寻找存在感，但何况我是谁？太过于观察别人，反而失去了自我，你不是要模刻他人，而是学习他人。
+
 {style="text-align: justify;"}
 
 **陽，你活下来了啊！你要告诉我世界每天的精彩啊！**
