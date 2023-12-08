@@ -84,7 +84,7 @@ sections:
           company_logo: org-gc
           location: Zhejiang Province,China
           date_start: '2018-09-01'
-          date_end: ''
+          date_end: '2021-06-01'
           description: |2-
               Responsibilities include:
 
@@ -96,7 +96,7 @@ sections:
           company_url: ''
           company_logo: org-x
           location: Jiangshu Provinvce,China
-          date_start: '2021-01-01'
+          date_start: '2021-09-01'
           date_end: ''
           description: Trying to learn about AI
     design:
