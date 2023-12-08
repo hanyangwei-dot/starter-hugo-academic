@@ -78,27 +78,27 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Student
+          company: Lin'an High School,Zhejiang Province
           company_url: ''
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          location: Zhejiang Province,China
+          date_start: '2018-09-01'
           date_end: ''
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
+              * Studying
+              * Eating
+              * Sleeping
+        - title: Student of NUAA
           company: University X
           company_url: ''
           company_logo: org-x
           location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          date_start: '2021-01-01'
+          date_end: ''
+          description: Trying to learn about AI
     design:
       columns: '2'
   - block: accomplishments
