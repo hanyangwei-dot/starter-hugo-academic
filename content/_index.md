@@ -92,10 +92,10 @@ sections:
               * Eating
               * Sleeping
         - title: Student of NUAA
-          company: University X
+          company: Nanjing University of Aeronautics and Astronautics
           company_url: ''
           company_logo: org-x
-          location: California
+          location: Jiangshu Provinvce,China
           date_start: '2021-01-01'
           date_end: ''
           description: Trying to learn about AI
