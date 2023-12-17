@@ -1,5 +1,5 @@
 ---
-title: abject failure
+title: Abject Failure
 subtitle: Nobody always has good luck because nobody is the centre of the world.You not,and not am I.Since now,I start to understand why we have to run with all our efforts.we have no way to come back.Unluckily,I may have lost numerous things I possessed,but now,I will not be scard.Go fighting
 
 # Summary for listings and search engines
@@ -39,8 +39,6 @@ categories:
   - Demo
   - daily life
 ---
-
-
 
 
 
