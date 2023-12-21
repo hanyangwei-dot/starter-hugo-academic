@@ -1,5 +1,5 @@
 ---
-title: How to make a person immortal
+title: How to make a person immortal?
 subtitle: I don't know how to make a person immortal,but I know how to make a person alive until I die.There is no doubt that a brain with unique memory、voice、look decides a person.May be I can train an AI to create a person with a long text about my memory with him. I can also record a person's voice,and add it to the model.May the difficult thing is that I do not have a big server(I have no money).I sincerely hope that the old who raised me could accompany me util my death.
 
 # Summary for listings and search engines
@@ -40,8 +40,6 @@ categories:
   - Demo
   - daily life
 ---
-
-
 
 
 
